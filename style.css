@@ -1,0 +1,36 @@
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url("https://picsum.photos/1200/900?image=836");
+  background-size: cover;
+  background-position: center;
+}
+
+.button{
+  transition: all 0.07s;
+  text-align:center;
+  height: 75px;
+  width: 75px;
+  opacity: 0.5;
+  border: 3px solid;
+  padding: 0px;
+}
+
+.button p{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+
+.button span{
+  color: yellow;
+  font-weight: bold;
+}
+
+.playing{
+  border: 3px solid yellow;
+  transform: scale(1.1);
+
+}
